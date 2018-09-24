@@ -1,0 +1,520 @@
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialCreate.resources
+C:\Users\saydintepe\documents\visual studio 2015\Projects\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialCreate.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialize.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialize.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialize.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialCreate.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csprojResolveAssemblyReference.cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initial.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.Migrations.initialCreate.resources
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.csproj.GenerateResource.Cache
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\TUGBA\Desktop\BilgeKoleji - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya - Kopya\BilgeKoleji\obj\Debug\BilgeKoleji.pdb
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\ApplicationInsights.config
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\csc.exe
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\vbc.exe
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\VBCSCompiler.exe
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\BilgeKoleji.dll.config
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\BilgeKoleji.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\BilgeKoleji.pdb
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\EntityFramework.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\EntityFramework.SqlServer.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.Web.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Helpers.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Mvc.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Razor.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Webpages.Deployment.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Webpages.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Webpages.Razor.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\EntityFramework.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\EntityFramework.SqlServer.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.Web.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Razor.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Webpages.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Webpages.Deployment.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Webpages.Razor.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Helpers.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\bin\System.Web.Mvc.xml
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\obj\Debug\BilgeKoleji.dll
+C:\Users\BEN\Desktop\BilgeKoleji\BilgeKoleji - Proje\BilgeKoleji\obj\Debug\BilgeKoleji.pdb

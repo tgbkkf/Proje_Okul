@@ -1,0 +1,69 @@
+﻿@model BilgeKoleji.Models.ogrenci
+
+@{
+    ViewBag.Title = "Ogrenci Detay";
+}
+
+
+<div>
+    <h4>Öğrenci Detay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+       
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.okulNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.okulNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cinsiyet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cinsiyet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bitirdigiOkul)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bitirdigiOkul)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.veli.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.veli.adSoyad)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.devamDurumu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.devamDurumu)
+        </dd>
+
+       
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Öğrenci Listesi", "Index")
+</p>

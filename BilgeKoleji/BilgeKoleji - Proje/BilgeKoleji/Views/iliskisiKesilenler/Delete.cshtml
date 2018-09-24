@@ -1,0 +1,74 @@
+﻿@model BilgeKoleji.Models.iliskisiKesilen
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+
+
+<div>
+    <h4>İlişkisi Kesilen Öğrenci Sil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.veli.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.veli.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.okulNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.okulNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cinsiyet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cinsiyet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bitirdigiOkul)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bitirdigiOkul)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.notOrtalamsi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.notOrtalamsi)
+        </dd>
+
+     
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("İlişkisi Kesilenler Listesi", "Index")
+        </div>
+    }
+</div>

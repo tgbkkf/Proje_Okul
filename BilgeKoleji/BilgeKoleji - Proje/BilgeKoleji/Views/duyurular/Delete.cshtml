@@ -1,0 +1,48 @@
+﻿@model BilgeKoleji.Models.duyuru
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<
+<div>
+    <h4>Duyuru Sil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.mesaj)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mesaj)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.aktifMi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.aktifMi)
+        </dd>
+
+       
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Duyuru Listesi", "Index")
+        </div>
+    }
+</div>

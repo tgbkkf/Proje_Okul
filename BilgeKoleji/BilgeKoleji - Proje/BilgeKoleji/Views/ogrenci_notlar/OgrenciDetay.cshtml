@@ -1,0 +1,68 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogrenci_not>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğrenci Notlar</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+           
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ders.isim)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.not)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.donem.isim)
+                    </th>
+                    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ders.isim)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ogrenci.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.not)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.donem.isim)
+                        </td>
+                        
+                        <td>
+                            <a href="@Url.Action("edit","ogrenci_notlar",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","ogrenci_notlar", new { id = item.id })" onclick="return confirm('Silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        
+                        </td>
+                    </tr>
+                }
+
+            </table>
+
+            <a href="@Url.Action("index", "ogrenci_notlar")" class="btn btn-info btn-xs btn-flat pull-right">Geri Dön</a>
+        </div>
+    </div>
+</div>

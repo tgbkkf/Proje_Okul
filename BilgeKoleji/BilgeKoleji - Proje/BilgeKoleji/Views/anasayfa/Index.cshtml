@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+    </ul>
+</div>
+
+<div class="page-content">
+    @if (Convert.ToInt32(Session["kulTip"]) == 1)
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="~/ogrenciler/index" class="btn btn-default col-lg-4">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Öğrenciler</small>
+                </a>
+                <a href="~/ogretmenler/index" class="btn btn-success col-lg-4">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Öğretmenler</small>
+                </a>
+                <a href="~/dersler/index" class="btn btn-warning col-lg-4">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Dersler</small>
+                </a>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="~/subeler/index" class="btn btn-success col-lg-4">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Sınıflar</small>
+                </a>
+                <a href="~/veliler/index" class="btn btn-warning col-lg-4">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Veliler</small>
+                </a>
+                <a href="~/duyurular/index" class="btn btn-default col-lg-4">
+                    <i class ="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Duyurular</small>
+                </a>
+            </div>
+        </div>
+    }
+         @if (Convert.ToInt32(Session["kulTip"]) == 2)
+         {
+    <div class="row">
+        <div class="col-lg-12">
+            <a href="~/ogrenci_notlar/OgretmenCreate" class="btn btn-default col-lg-6">
+                <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                <small>Notlar</small>
+            </a>
+            <a href="~/ogrenci_odevler/IndexOgretmen" class="btn btn-success col-lg-6">
+                <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                <small>Ödevler</small>
+            </a>
+            </div>
+        <div class="col-lg-12">
+            <a href="~/ogrenci_devamsizliklar/OgretmenCreate" class="btn btn-warning col-lg-6">
+                <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                <small>Devamsızlıklar</small>
+            </a>
+            <a href="~/duyurular/index" class="btn btn-default col-lg-6">
+                <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                <small>Duyurular</small>
+            </a>
+            </div>
+        </div>
+  
+
+
+         }
+    @if (Convert.ToInt32(Session["kulTip"]) == 3)
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="~/ogrenci_notlar/indexOgrenci" class="btn btn-default col-lg-6">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Notlar</small>
+                </a>
+                <a href="~/ogrenci_odevler/index" class="btn btn-success col-lg-6">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Ödevler</small>
+                </a>
+                </div>
+            <div class="col-lg-12">
+
+                <a href="~/ogrenci_devamsizliklar/indexOgrenci" class="btn btn-warning col-lg-6">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Devamsızlıklar</small>
+                </a>
+                <a href="~/veli_ogrenci/duyurular" class="btn btn-default col-lg-6">
+                    <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                    <small>Duyurular</small>
+                </a>
+            </div>
+           
+        </div>
+
+
+    }
+        @if (Convert.ToInt32(Session["kulTip"]) == 4)
+        {
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="~/veli_ogrenci/Index" class="btn btn-default col-lg-6">
+                        <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                        <small>Öğrenciler</small>
+                    </a>
+                    <a href="~/veli_ogrenci/OgrenciDetay" class="btn btn-success col-lg-6">
+                        <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                        <small>Notlar</small>
+                    </a>
+                </div>
+                <div class="col-lg-12">
+
+                    <a href="~/veli_ogrenci/OgrenciDevamsizlik" class="btn btn-warning col-lg-6">
+                        <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                        <small>Devamsızlıklar</small>
+                    </a>
+                    <a href="~/veli_ogrenci/duyurular" class="btn btn-default col-lg-6">
+                        <i class="ace-icon fa fa-asterisk bigger-230"></i>
+                        <small>Duyurular</small>
+                    </a>
+                </div>
+            </div>
+
+
+        }
+
+
+
+
+</div>
+
+
+
+

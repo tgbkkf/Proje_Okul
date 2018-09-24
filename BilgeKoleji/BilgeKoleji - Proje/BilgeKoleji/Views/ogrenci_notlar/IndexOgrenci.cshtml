@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogrenci_not>
+
+@{
+    ViewBag.Title = "IndexOgrenci";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğrenci Notlar</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+
+
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ders.isim)
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.not)
+                    </th>
+                    <th>@Html.DisplayNameFor(model => model.donem.isim)</th>
+
+
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ogrenci.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ders.isim)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.not)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.donem.isim)
+                        </td>
+
+
+                    </tr>
+                }
+
+            </table>
+
+
+        </div>
+    </div>
+</div>

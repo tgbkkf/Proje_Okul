@@ -1,0 +1,36 @@
+﻿@model BilgeKoleji.Models.sube_ders
+
+@{
+    ViewBag.Title = "Sube_Ders Detay";
+}
+
+
+
+<div>
+    <h4>Şube-Ders Detay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ders.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ders.isim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sube.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sube.isim)
+        </dd>
+
+       
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Şube-Ders Listesi", "Index")
+</p>

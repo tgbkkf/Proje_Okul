@@ -1,0 +1,64 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogrenci>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğrenciler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.adSoyad)
+                    </th>
+                    <th>Ders Sayısı</th>
+    <th>Ortalama</th>
+    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.adSoyad)
+                        </td>
+                       <td>@item.ogrenciNotlar.Where(on => on.silindiMi == false).Count()</td>
+    <td>
+        @{  double sonuc = 0;
+            int notlar = item.ogrenciNotlar.Where(on => on.silindiMi == false).Sum(on => on.not);
+            int ders = item.ogrenciNotlar.Where(on => on.silindiMi == false).Count();
+            if (notlar != 0) { sonuc = notlar / ders; }
+
+        }
+
+        @Html.Raw(sonuc)
+
+    </td>
+    <td>
+        <a href="@Url.Action("ogrenciDetay", "veli_ogrenci", new { id = item.id })" class="btn btn-sm btn-flat btn-info pull-left">Notları</a>
+        
+
+       
+    </td>
+
+                    </tr>
+                                }
+
+            </table>
+        </div>
+    </div>
+</div>
+

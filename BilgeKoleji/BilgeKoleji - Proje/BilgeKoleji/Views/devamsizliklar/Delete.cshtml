@@ -1,0 +1,49 @@
+﻿@model BilgeKoleji.Models.devamsizlik
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li>
+            <a href="~/anasayfa/index">Devamsızlıklar</a>
+        </li>
+        <li class="active">Devamsızlık Sil</li>
+    </ul>
+</div>
+<div>
+    <h3>Devamsızlık Sil</h3>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.silindiMi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.silindiMi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> 
+            <a href="@Url.Action("index", "devamsizliklar")" class="btn btn-info btn-xs btn-flat pull-right">Geri Dön</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,76 @@
+﻿@model IEnumerable<BilgeKoleji.Models.kullanici>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Kullanıcı</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <a href="@Url.Action("Create", "kullanicilar")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Kullanıcı</a>
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        Öğrenci @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+                    </th>
+                    <th>
+                        Öğretmen @Html.DisplayNameFor(model => model.ogretmen.adiSoyadi)
+                    </th>
+                    <th>
+                        Veli @Html.DisplayNameFor(model => model.veli.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.kulAdi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.password)
+                    </th>
+
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ogrenci.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ogretmen.adiSoyadi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.veli.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.kulAdi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.password)
+                        </td>
+
+                        <td>
+                            <a href="@Url.Action("edit","kullanicilar",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","kullanicilar", new { id = item.id })" onclick="return confirm('Kullanıcıyı silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

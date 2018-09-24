@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BilgeKoleji.Models.duyuru>
+
+@{
+    ViewBag.Title = "Duyurular";
+    Layout = "~/Views/shared/_LayoutHome.cshtml";
+}
+<div style="font-style:normal; margin-bottom:340px;margin-top:80px;">
+
+    <h4>Duyurular</h4>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.mesaj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tarihi)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mesaj)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tarihi)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

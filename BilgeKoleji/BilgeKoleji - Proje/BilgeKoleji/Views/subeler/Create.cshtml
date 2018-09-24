@@ -1,0 +1,81 @@
+﻿@model BilgeKoleji.Models.sube
+@{ BilgeDb db = new BilgeDb(); }
+
+@{
+    ViewBag.Title = "Şube Ekle";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li>
+            <a href="~/subeler/index">Şubeler</a>
+        </li>
+        <li class="active">Şube Ekle</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            @if (db.subeler.Where(s => s.silindiMi == false).Count() <= 27)
+            {
+                using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    {
+
+
+                        <div class="form-horizontal">
+                            <h5>Şube Ekle</h5>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.sinif, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.DropDownList("sinif", new[]
+              {
+                  new SelectListItem {  Text="1",Value="1"},
+                  new SelectListItem {  Text="2",Value="2"},
+                  new SelectListItem {  Text="3",Value="3"},
+                  new SelectListItem {  Text="4",Value="4"},
+              })
+                                    @Html.ValidationMessageFor(model => model.sinif, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.isim, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.isim, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.isim, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Ekle" class="btn btn-default btn-sm" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+            }
+            else
+            {
+                <div class="alert alert-warning fade in alert-dismissable" style="margin-top:18px;">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                    <strong>Dikkat!</strong> Sınıf adeti sınırdadır. Daha fazla sınıf ekleyemezsiniz!
+                </div>
+            }
+
+            <a href="@Url.Action("index", "subeler")" class="btn btn-info btn-xs btn-flat pull-right">Geri Dön</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogrenci_devamsizlik>
+
+@{
+    ViewBag.Title = "OgrenciDevamsizlik";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğrenci Devamsızlık</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table">
+                <tr>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.tarih)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.devamsizlik.name)
+                    </th>
+
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ogrenci.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.tarih)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.devamsizlik.name)
+                        </td>
+
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

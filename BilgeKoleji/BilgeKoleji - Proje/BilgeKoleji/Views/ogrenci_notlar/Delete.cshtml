@@ -1,0 +1,57 @@
+﻿@model BilgeKoleji.Models.ogrenci_not
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğrenci Ödevler</li>
+    </ul>
+</div>
+
+<div>
+    <h4>Öğrenci-Not Sil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ders.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ders.isim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ogrenci.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.not)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.not)
+        </dd>
+
+       
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Öğrenci-Not Listesi", "Index")
+        </div>
+    }
+</div>

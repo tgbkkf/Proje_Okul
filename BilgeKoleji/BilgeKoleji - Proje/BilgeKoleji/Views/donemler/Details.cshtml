@@ -1,0 +1,51 @@
+﻿@model BilgeKoleji.Models.donem
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>donem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.baslangicTarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.baslangicTarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bitisTarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bitisTarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.silindiMi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.silindiMi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

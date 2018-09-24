@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogretmen_sube>
+
+@{
+    ViewBag.Title = "IndexOgretmen";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<h2>Öğretmen-Şubeler</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ogretmen.adiSoyadi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sube.isim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.donem.isim)
+        </th>
+       
+        <th>İşlemler</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ogretmen.adiSoyadi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sube.isim)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.donem.isim)
+        </td>
+       
+        <td>
+           
+            <a href="@Url.Action("OgretmenIndex","ogrenci_subeler",new { id = item.id })" title="Öğrenciler" class="btn btn-sm btn-flat btn-info pull-left">Öğrenciler</a>
+           
+        </td>
+    </tr>
+}
+
+</table>

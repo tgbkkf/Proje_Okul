@@ -1,0 +1,85 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogrenci_sube>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Oğrenci Şubeler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <a href="@Url.Action("Create", "ogrenci_subeler")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Öğrenci Şube</a>
+            </p>
+            <table class="table" id="datatable">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.sube.sinif)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.sube.isim)
+                        </th>
+
+                        <th>İşlemler</th>
+                    </tr>
+                    </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ogrenci.adSoyad)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.sube.sinif)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.sube.isim)
+                            </td>
+                            <td>
+                               
+                                <a href="@Url.Action("edit","ogrenci_subeler",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                                <a href="@Url.Action("delete","ogrenci_subeler", new { id = item.id })" onclick="return confirm('Silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+@section datatable{
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable').DataTable(
+                {
+                    "paging": true,
+                    "lengthChange": true,
+                    "searching": true,
+                    "ordering": true,
+                    "info": true,
+                    "autoWidth": false,
+                    "language": {
+                        "url": "//cdn.datatables.net/plug-ins/1.10.13/i18n/Turkish.json"
+                    }
+                });
+        });
+    </script>
+}
+

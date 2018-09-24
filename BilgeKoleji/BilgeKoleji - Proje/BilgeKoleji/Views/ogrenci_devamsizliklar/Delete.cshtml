@@ -1,0 +1,49 @@
+﻿@model BilgeKoleji.Models.ogrenci_devamsizlik
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<div>
+    <h4>Öğrenci-Devamsızlık Sil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.devamsizlik.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.devamsizlik.id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ogrenci.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tarih)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tarih)
+        </dd>
+
+      
+      
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Öğrenci-Devamsızlık Listesi", "Index")
+        </div>
+    }
+</div>

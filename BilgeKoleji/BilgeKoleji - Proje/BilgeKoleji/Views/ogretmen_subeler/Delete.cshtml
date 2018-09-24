@@ -1,0 +1,40 @@
+﻿@model BilgeKoleji.Models.ogretmen_sube
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<div>
+    <h4>Öğretmen-Şube Sil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ogretmen.adiSoyadi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ogretmen.adiSoyadi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sube.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sube.isim)
+        </dd>
+
+       
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Öğretmen-Şube Listesi", "Index")
+        </div>
+    }
+</div>

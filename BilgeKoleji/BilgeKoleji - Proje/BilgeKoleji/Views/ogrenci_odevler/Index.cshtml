@@ -1,0 +1,84 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogrenci_odev>
+
+@{
+    ViewBag.Title = "Ogrenci_Odev";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğrenci Ödevler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            <p>
+               @if (Convert.ToInt32(Session["kulTip"]) == 3)
+               {
+                <a href="@Url.Action("Create", "ogrenci_odevler")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Öğrenci Ödev</a>
+
+               } 
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ders.isim)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.dosyaYolu)
+                    </th>
+                    <th>@Html.DisplayNameFor(model => model.donem.isim)</th>
+                  <th>@if (Convert.ToInt32(Session["kulTip"]) == 3)
+                  {
+                    <span>İşlemler</span>
+                  }</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ders.isim)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ogrenci.adSoyad)
+                        </td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.dosyaYolu))
+                            {
+                                <a href="@Url.Content(item.dosyaYolu)"  download>İndir</a>
+                            }else
+                            {
+                                <label>--</label>
+                            }
+                           
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.donem.isim)
+                        </td>
+                        <td>
+                           @if (Convert.ToInt32(Session["kulTip"]) == 3)
+                           {
+                            <a href="@Url.Action("edit", "ogrenci_odevler", new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete", "ogrenci_odevler", new { id = item.id })" onclick="return confirm('Silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                           }
+
+                          
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

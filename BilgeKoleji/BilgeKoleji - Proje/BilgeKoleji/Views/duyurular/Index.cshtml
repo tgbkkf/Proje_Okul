@@ -1,0 +1,60 @@
+﻿@model IEnumerable<BilgeKoleji.Models.duyuru>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Duyurular</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <a href="@Url.Action("Create", "duyurular")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Duyuru</a>
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.mesaj)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.tarihi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.aktifMi)
+                    </th>
+                    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.mesaj)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.tarihi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.aktifMi)
+                        </td>
+                        <td>
+                            <a href="@Url.Action("edit","duyurular",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","duyurular", new { id = item.id })" onclick="return confirm('Duyuruyu silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

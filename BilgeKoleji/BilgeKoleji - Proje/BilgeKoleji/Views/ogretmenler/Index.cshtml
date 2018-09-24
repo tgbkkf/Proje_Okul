@@ -1,0 +1,106 @@
+﻿@model IEnumerable<BilgeKoleji.Models.ogretmen>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Öğretmenler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <a href="@Url.Action("Create", "ogretmenler")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Öğretmen</a>
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.adiSoyadi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.brans)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.cinsiyet)
+                    </th>
+                   
+                    <th>
+                        @Html.DisplayNameFor(model => model.gorev)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.telefon)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.cepTelefonu)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ePosta)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.adres)
+                    </th>
+                    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.adiSoyadi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.brans)
+                        </td>
+                        <td>
+                            @{ 
+                                string cins; 
+                                if (item.cinsiyet == false)
+                                {
+                                    cins = "Bayan";
+                                }
+                                else
+                                {
+                                    cins = "Erkek";
+                                }
+                            } 
+                            @Html.Raw(cins)
+                           
+                        </td>
+                      
+                        <td>
+                            @Html.DisplayFor(modelItem => item.gorev)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.telefon)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.cepTelefonu)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ePosta)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.adres)
+                        </td>
+                        <td>
+                           
+                            <a href="@Url.Action("edit","ogretmenler",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","ogretmenler", new { id = item.id })" onclick="return confirm('Öğretmeni silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

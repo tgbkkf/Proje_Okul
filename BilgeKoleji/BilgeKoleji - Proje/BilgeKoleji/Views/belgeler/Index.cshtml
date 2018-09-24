@@ -1,0 +1,74 @@
+﻿@model IEnumerable<BilgeKoleji.Models.belge>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Belgeler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            <p>
+                <a href="@Url.Action("create", "belgeler")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Belge</a>
+            </p>
+            <table class="table">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.isim)</th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.belgeYolu)
+                    </th>
+                    <th>Resim</th>
+                    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.isim)
+                        </td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.belgeYolu))
+                            {
+                                <a href="@Url.Content(item.belgeYolu)" download>İndir</a>
+                            }
+                            else
+                            {
+                                <label>--</label>
+                            }
+
+                        </td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.belgeYolu))
+                            {
+                                <img src="@Url.Content(item.belgeYolu)" width="50" class="img-responsive" />
+                            }
+                            else
+                            {
+                                <label>--</label>
+                            }
+                            
+                        </td>
+                        <td>
+                            <a href="@Url.Action("edit","belgeler",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","belgeler", new { id = item.id })" onclick="return confirm('Belgeyi silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div><!-- /.col -->
+    </div><!-- /.row -->
+</div><!-- /.page-content -->

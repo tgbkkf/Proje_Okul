@@ -1,0 +1,59 @@
+﻿@model IEnumerable<BilgeKoleji.Models.sube>
+
+@{
+    ViewBag.Title = "Şube";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Şubeler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <a href="@Url.Action("Create", "subeler")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Şube</a>
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.sinif)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.isim)
+                    </th>
+
+
+                    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.sinif)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.isim)
+                        </td>
+
+
+                        <td>
+                            <a href="@Url.Action("edit","subeler",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","subeler", new { id = item.id })" onclick="return confirm('Şubeyi silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

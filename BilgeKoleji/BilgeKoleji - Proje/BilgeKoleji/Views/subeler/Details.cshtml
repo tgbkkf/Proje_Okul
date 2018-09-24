@@ -1,0 +1,37 @@
+﻿@model BilgeKoleji.Models.sube
+
+@{
+    ViewBag.Title = "Şube Detay";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+
+
+<div>
+    <h4>Şube Detay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sinif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sinif)
+        </dd>
+
+       
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Şube Listesi", "Index")
+</p>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<BilgeKoleji.Models.iliskisiKesilen>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">İlişkisi Kesilenler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+           
+            <table class="table">
+                <tr>
+                   
+                    <th>
+                        @Html.DisplayNameFor(model => model.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.okulNo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.cinsiyet)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.bitirdigiOkul)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.veli.adSoyad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.notOrtalamsi)
+                    </th>
+                    <th>İşlemler</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        
+                        <td>
+                            @Html.DisplayFor(modelItem => item.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.okulNo)
+                        </td>
+                        <td>
+                            @{
+                                string cins;
+                                if (item.cinsiyet == false)
+                                {
+                                    cins = "Kız";
+                                }
+                                else
+                                {
+                                    cins = "Erkek";
+                                }
+                            }
+                            @Html.Raw(cins)
+
+
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.bitirdigiOkul)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.veli.adSoyad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.notOrtalamsi)
+
+                        </td>
+
+                        <td>
+                            <a href="@Url.Action("edit","iliskisiKesilenler",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","iliskisiKesilenler", new { id = item.id })" onclick="return confirm('Öğrenciyi silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

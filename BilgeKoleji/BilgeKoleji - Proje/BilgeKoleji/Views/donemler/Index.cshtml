@@ -1,0 +1,61 @@
+﻿@model IEnumerable<BilgeKoleji.Models.donem>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li class="active">Dönemler</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                <a href="@Url.Action("Create", "donemler")" class="btn btn-info btn-xs btn-flat pull-right">Yeni Dönem</a>
+            </p>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.isim)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.baslangicTarihi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.bitisTarihi)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.isim)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.baslangicTarihi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.bitisTarihi)
+                        </td>
+                        <td>
+                            <a href="@Url.Action("edit","donemler",new { id = item.id })" title="Güncelle" class="btn btn-sm btn-flat btn-info pull-left"><i class="fa fa-edit"></i></a>
+                            <a href="@Url.Action("delete","donemler", new { id = item.id })" onclick="return confirm('Dönemi silmek istiyor musunuz?')" title="Sil" class="btn btn-sm btn-flat btn-danger pull-left"><i class="fa fa-trash-o"></i></a>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>

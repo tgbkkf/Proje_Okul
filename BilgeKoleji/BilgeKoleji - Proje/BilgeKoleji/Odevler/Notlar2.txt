@@ -1,0 +1,13 @@
+Anasayfa özet bilgiler - raporlar
+Öðrenci adeti, öðretmen adeti, sýnýf adeti
+
+
+Cinsiyet bilgisi dropdown'da gösterilecek ve seçilen item'ýn value deðeri veritabanýna kaydedilecek. Index sayfasýnda da bool deðiþkene karþýlý cinsiyet yazdýrýlacak
+
+Öðreci Notlar Sayfasý Tasarýmýna Benzer öðrenci devamsýzlýk bilgisi sayfasý
+Öðretmen þubeler sayfasý tasarýmý
+Öðrenci Ödevler
+Þube Öðrenciler
+Þube Dersler
+
+

@@ -1,0 +1,68 @@
+﻿@model BilgeKoleji.Models.veli
+
+@{
+    ViewBag.Title = "Veli Detay";
+}
+
+
+
+<div>
+    <h4>Veli Detay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tcKimlik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tcKimlik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.evTelefonu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.evTelefonu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isTelefonu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isTelefonu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adres)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ilIlce)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ilIlce)
+        </dd>
+
+       
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Veli Listesi", "Index")
+</p>

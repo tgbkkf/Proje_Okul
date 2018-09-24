@@ -1,0 +1,86 @@
+﻿@model BilgeKoleji.Models.kullanici
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="breadcrumbs ace-save-state" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>
+            <a href="~/anasayfa/index">Anasayfa</a>
+        </li>
+        <li>
+            <a href="~/kullanicilar/index">Kullanıcılar</a>
+        </li>
+        <li class="active">Kullanıcı Ekle</li>
+    </ul>
+</div>
+
+<div class="page-content">
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h5>Kullanıcı Ekle</h5>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.kulAdi, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.kulAdi, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.kulAdi, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ogretmen_id, "ogretmen_id", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("ogretmen_id", null, "Öğretmenler", htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ogretmen_id, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.veli_id, "veli_id", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("veli_id", null, "Veliler", htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.veli_id, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ogrenci_id, "ogrenci_id", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("ogrenci_id", null, "Öğrenciler", htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ogrenci_id, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Ekle" class="btn btn-default btn-sm" />
+                        </div>
+                    </div>
+                </div>
+            }
+            <a href="@Url.Action("index", "kullanicilar")" class="btn btn-info btn-xs btn-flat pull-right">Geri Dön</a>
+        </div>
+    </div>
+</div>

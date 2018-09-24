@@ -1,0 +1,36 @@
+﻿@model BilgeKoleji.Models.ogretmen_sube
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<div>
+    <h4>Öğretmen-Şube Detay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ogretmen.adiSoyadi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ogretmen.adiSoyadi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sube.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sube.isim)
+        </dd>
+
+       
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Öğretmen-Şube Listesi", "Index")
+</p>

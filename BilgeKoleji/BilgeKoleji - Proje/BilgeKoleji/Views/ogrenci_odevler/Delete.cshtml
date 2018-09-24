@@ -1,0 +1,47 @@
+﻿@model BilgeKoleji.Models.ogrenci_odev
+
+@{
+    ViewBag.Title = "Odev Sil";
+}
+
+
+<div>
+    <h4>Ödev Sil</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ders.isim)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ders.isim)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ogrenci.adSoyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ogrenci.adSoyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dosyaYolu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dosyaYolu)
+        </dd>
+
+     
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Ödev Listesi", "Index")
+        </div>
+    }
+</div>

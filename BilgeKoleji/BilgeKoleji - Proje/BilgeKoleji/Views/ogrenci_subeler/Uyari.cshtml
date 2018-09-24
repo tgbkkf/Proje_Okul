@@ -1,0 +1,21 @@
+﻿@model BilgeKoleji.Models.ogrenci_sube
+
+@{
+    ViewBag.Title = "Uyari";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<h2>Uyari</h2>
+
+<div>
+    <h4>ogrenci_sube</h4>
+    <hr />
+    <div class="alert alert-warning fade in alert-dismissable" style="margin-top:18px;">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+        <strong>Dikkat!</strong> Sınıfta yeteri kadar öğrenci vardır, lütfen başka sınıfa atayınız!
+    </div>
+</div>
+<p>
+
+    @Html.ActionLink("Back to List", "Index")
+</p>
